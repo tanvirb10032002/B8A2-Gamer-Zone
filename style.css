@@ -207,10 +207,16 @@ nav{
 
 .container-4 > .text{
     /* border: 3px solid #17f880; */
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     width: 40%;
     text-align: right;
 }
+
+.container-4 > .text h2{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
 
 .container-4 > .text span{
     color: #F948B2;
@@ -219,7 +225,7 @@ nav{
 .container-4 > .img{
     min-height: 100px;
     /* border: 3px solid #17f880; */
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     width: 60%;
     background-image: url("images/Rectangle\ 55.png");
     background-repeat: no-repeat;
@@ -399,6 +405,16 @@ footer .copy{
 
 
 
+/* For Tablate Devices */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .container-3 .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
 
 /* for small devices */
 
@@ -421,12 +437,12 @@ footer .copy{
     }
 
     .banar-img{
-        border: 3px solid red;
+        /* border: 3px solid red; */
         width: 100%;  
     }
 
     .banar-text{
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
         width: 100%;
     }
 
